@@ -1,6 +1,3 @@
-// do not change anything in this file except to make it print out
-// your own name instead of "Your Name"
-
 // enable Visual C++ memory leak checking
 #ifdef _DEBUG
 #include <ostream>
@@ -85,7 +82,7 @@ int main(void)
 {
 	_CrtSetDbgFlag( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
-	cout << "CS260 - Lab3 - Asia Mitchell" << endl;
+	cout << "Stock Ticker - Asia Mitchell" << endl;
 
 	printStocks();
 	searchStock("IBM");
